@@ -188,19 +188,19 @@ public class MainActivityFragment extends Fragment {
         if (flag) {
             String result_text = new String();
             ArrayList<String> ls = name_list.GetFirstWinner();
-            result_text += "一等奖(¥3000):\n";
+            result_text += "一等奖一名(¥3000):\n";
             for (String s : ls) {
                 result_text += s;
                 result_text += "\n";
             }
             ls = name_list.GetSecondWinner();
-            result_text += "二等奖(¥500):\n";
+            result_text += "二等奖二名(¥500):\n";
             for (String s : ls) {
                 result_text += s;
                 result_text += "\n";
             }
             ls = name_list.GetThirdWinner();
-            result_text += "三等奖(¥100):\n";
+            result_text += "三等奖十名(¥100):\n";
             for (String s : ls) {
                 result_text += s;
                 result_text += "\n";
