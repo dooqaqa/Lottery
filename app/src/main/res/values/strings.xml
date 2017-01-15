@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Auto年会抽奖</string>
+    <string name="check_result">查看结果</string>
+    <string name="button_rock_start">开始摇奖</string>
+    <string name="button_rock_stop">停止摇奖</string>
+</resources>
